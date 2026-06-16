@@ -1,6 +1,6 @@
 package strivers_60_Days;
 
-public class Day10_P4_Two_Sum_Brute_Force {
+public class Day10_P2_Two_Sum_Brute_Force {
 
 	public static void main(String[] args) {
 		int[]arr= {2,6,5,8,11};
