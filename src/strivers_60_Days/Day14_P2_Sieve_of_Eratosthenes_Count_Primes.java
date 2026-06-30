@@ -21,7 +21,7 @@ public class Day14_P2_Sieve_of_Eratosthenes_Count_Primes {
 		}
 		
 		// put false for multiples of prime
-		for(int j=2;j<n;j++) {
+		for(int j=2;j<=Math.sqrt(n);j++) {
 			if(arr[j]) {
 				for(int k=j*j;k<n;k+=j) {
 					arr[k]=false;
