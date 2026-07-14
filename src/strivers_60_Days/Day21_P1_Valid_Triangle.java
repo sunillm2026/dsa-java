@@ -1,6 +1,6 @@
 package strivers_60_Days;
 import java.util.Scanner;
-public class Day20_P1_Valid_Triangle {
+public class Day21_P1_Valid_Triangle {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
