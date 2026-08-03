@@ -3,7 +3,7 @@ package strivers_60_Days;
 public class Day8_P3_Squares_of_a_Sorted_Array {
 
 	public static void main(String[] args) {
-		int[]arr= {-4, -2, -1, 0, 3, 5, 7};
+		int[]arr= {-7,-3,2,3,11};
 		int[]ans=sortedSquare(arr);
 		for(int i=0;i<ans.length;i++) {
 			System.out.print(ans[i]+" ");
